@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Ted.com JW player
-// @version        0.2
+// @version        0.3
 // @namespace      http://denbuzze.wordpress.com/
 // @description    Use an alternative player instead of the default flash player on Ted.
 // @match          http://*.ted.com/talks/*
@@ -16,7 +16,7 @@
      * Load the ted videos into the main ted variable
      */
     var loadTedVideos = function(){
-        var ted_video_reg = /(hs|ms|ls)=(|mp4\:)(talks.*?\.(mp4|flv))/gi;
+        var ted_video_reg = /(hs|ms|ls)=(|mp4\:)(talk.*?\.(mp4|flv))/gi;
 
         var ted_video_regs;
         for(var i=0; i<3; i++){
