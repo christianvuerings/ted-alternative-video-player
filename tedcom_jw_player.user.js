@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Ted.com JW player
 // @version        0.3
-// @namespace      http://denbuzze.wordpress.com/
+// @namespace      http://denbuzze.com/
 // @description    Use an alternative player instead of the default flash player on Ted.
 // @match          http://*.ted.com/talks/*
 // @include        http://*ted.com/talks/*
